@@ -1,0 +1,19 @@
+{
+  "movies": [
+    {
+      "name": "A Star Is Born",
+      "img": "https://upload.wikimedia.org/wikipedia/en/3/39/A_Star_is_Born.png",
+      "id": 1
+    },
+    {
+      "name": "Black Panther",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/61apTYdaRXL.jpg",
+      "id": 2
+    },
+    {
+      "name": "A Quiet Place",
+      "img": "https://www.joblo.com/assets/images/oldsite/images_arrownews/aquietposterfb.jpg",
+      "id": 3
+    }
+  ]
+}

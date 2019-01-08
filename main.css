@@ -1,0 +1,91 @@
+.body{
+    background-color: white;
+    width: 100%;
+    margin: 0.5%;
+    font-family: 'Times New Roman', Times, serif;
+  
+} 
+
+.grid{
+    display: grid;
+}
+
+.left{
+
+   color:black;
+    float: left;
+      
+}
+
+.right{  
+ 
+    float: left;    
+     
+}
+
+.jos{
+  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    clear: both;
+    height: 60px;
+    width: 100%;
+    float: bottom;
+    position: relative;
+
+}
+
+.sus{
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color:white;
+  }
+
+
+@media screen and (min-width: 1280px){
+    .body{
+        width: 100%;
+        position: relative;
+    }
+    .left{
+        width: 70%;
+    }
+    .right{
+        width: 30%;}
+    img{
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1280px)  {
+    .body{
+        width: 100%;
+    }
+    .left{
+        width: 60%;
+    }
+    .right{
+        width: 40%;
+    }
+    img{
+        width: 100%;
+    }
+   
+}
+
+@media screen and (max-width: 768px){
+    
+    .body{
+      width: 100%;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%; 
+      }
+    img{
+        width: 100%;
+    }
+}
